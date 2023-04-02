@@ -3,13 +3,11 @@ import styles from "./MiddlePeopleProfileSection.module.css";
 import CustomButton from "../../Molecules/Custom Button/CustomButton";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
-import UserTweetTemplate from "../../Components/User Tweet Template/UserTweetTemplate";
 import { Link } from "react-router-dom";
 import CommentControl from "../../Molecules/Comment Control/CommentControl";
 import RetweetControl from "../../Molecules/Retweet Control/RetweetControl";
 import LikeControl from "../../Molecules/Like Control/LikeControl";
 import ViewControl from "../../Molecules/View Control/ViewControl";
-import FollowButton from "../../Molecules/Follow Button/FollowButton";
 import FloatingActionButton from "../../Components/Floating Action Button/FloatingActionButton";
 
 function MiddlePeopleProfileSection() {
@@ -130,8 +128,8 @@ function MiddlePeopleProfileSection() {
           <ViewControl />
         </div>
         <div className={styles.FloatingActionButton}>
-        <FloatingActionButton />
-      </div>
+          <FloatingActionButton />
+        </div>
       </div>
     </div>
   );
